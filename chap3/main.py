@@ -16,3 +16,11 @@ print(motorcycles)
 
 del motorcycles[0]
 print(motorcycles)
+
+popped = motorcycles.pop()
+print(popped)
+print(motorcycles)
+
+pop_from_front = motorcycles.pop(0)
+print(pop_from_front)
+print(motorcycles)
