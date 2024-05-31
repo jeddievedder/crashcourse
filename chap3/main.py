@@ -24,3 +24,15 @@ print(motorcycles)
 pop_from_front = motorcycles.pop(0)
 print(pop_from_front)
 print(motorcycles)
+
+motorcycles.remove('suzuki')
+print(motorcycles)
+
+motorcycles.insert(0, 'honda')
+print(motorcycles)
+
+motorcycles.insert(1, 'bmw')
+print(motorcycles)
+
+motorcycles.append('tesla')
+print(motorcycles)
